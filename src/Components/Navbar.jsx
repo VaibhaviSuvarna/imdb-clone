@@ -10,7 +10,6 @@ const Navbar = () => {
         <img className="w-[50px]"src={Logo} alt=""/>
         <Link to='/'className='text-blue-500 text-2xl font-bold'>Movies</Link>
         <Link to='/watchlist'className='text-blue-500 text-2xl font-bold'>Watchlist</Link>
-    <button onClick className='w-100 bg-blue-400 rounded font-bold text-white py-2 px-4 hover:bg-blue-600'>Change Mode</button>
     </div>
   )
 }
