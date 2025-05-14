@@ -36,7 +36,7 @@ useEffect(()=>{
         <div className='text-2xl m-5 font-bold text-center'>
           Trending Movies
           </div>
-          <div className='flex m-4 gap-8 flex-row flex-wrap justify-around'>
+          <div className='flex m-4 gap-3 flex-row flex-wrap justify-around'>
             {movies.map((movieObj)=>{
               return <MovieCard key={movieObj.id} movieObj={movieObj} poster_path={movieObj.poster_path} name={movieObj.title} handleAddToWatchList={handleAddToWatchList} handleRemoveFromWatchList={handleRemoveFromWatchList} watchlist={watchlist}/>
             })}
